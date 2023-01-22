@@ -3,7 +3,7 @@ layout: "../../layouts/PostLayout.astro"
 title: "Managing AWS EC2 Instances Through Simple SSH Configurations"
 description: "A short post about how I manage my SSH Configuration for AWS EC2 instances needed in UC Berkeley's Data Engineering course"
 pubDate: "Jan 20 2023"
-heroImage: "/public/blog images/SSH.png"
+heroImage: "/blog images/SSH.png"
 ---
 ## Introduction
 
