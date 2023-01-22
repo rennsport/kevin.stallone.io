@@ -1,0 +1,120 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import TimeLineElement from "../components/cv/TimeLine.astro";
+---
+
+<BaseLayout title = "Resume">
+  <div class="mb-5">
+    <div class="text-3xl w-full font-bold">Profile</div>
+  </div>
+
+  <p class="mb-10 text-justify">
+    As a first year graduate student at the University of California Berkeley, I am pursuing a
+    Master's of Information and Data Science, drawing on my background in cognitive science
+    and psychology. My passion lies at the intersection of information and technology, and
+    I am eager to use my educational background in data science, computer science, and
+    cognition to optimize existing solutions and help create cutting-edge technologies.
+    My ultimate goal is to use data science techniques in the field of neuropsychology
+    to improve the lives of individuals living with neuropsychological conditions. My studies
+    have emphasized interdisciplinary work, including computer science, statistical analysis,
+    data aggregation, and neuropsychology. I believe that by utilizing data science methods,
+    we can gain a deeper understanding of the brain and how it functions, ultimately leading
+    to more effective treatments and therapies.
+  </p>
+  <p class="mb-10 text-justify">
+    In my free time, I am an avid photographer with a focus on architecture. I enjoy capturing
+    the beauty and design of buildings and structures, and exploring how they shape our urban
+    environments. I also love the thrill of adventure and challenge while mountain biking on different
+    trails throughout the Bay Area. am excited to continue my education at Berkeley and to see where
+    my interests take me in the future.
+  </p>
+
+  <div class="mb-5">
+    <div class="text-3xl w-full font-bold">Education</div>
+  </div>
+
+  <div class="time-line-container grid gap-4 mb-10">
+    <TimeLineElement
+      title="Master's of Information and Data Science"
+      subtitle="Present at University of California, Berkeley, Berkeley, CA"
+    />
+    <TimeLineElement
+      title="B.A. Cognitive Science & B.A. Psychology"
+      subtitle="August 2015 - May 2020 at University of California, Berkeley, Berkeley, CA"
+    />
+  </div>
+
+  <div class="mb-5">
+    <div class="text-3xl w-full font-bold">Experience</div>
+  </div>
+
+  <div class="time-line-container mb-10">
+    <TimeLineElement
+      title="Network Consultant and System Integrator"
+      subtitle="December 2016 – Present"
+      desc="Design and assemble systems––such as mesh networks, network-attached storage cluster RAIDs, and computer servers––to meet site specifications and client requirements, prioritizing intuitive user experiences; Research, prepare, and present proposals to meet budgetary and time constraints of clients; Direct and collaborate with others in the successful installation and implementation of systems"
+    />
+  </div>
+
+  <div class="mb-5">
+    <div class="text-3xl w-full font-bold">Academic Experiences</div>
+  </div>
+
+  <div class="time-line-container mb-10">
+    <TimeLineElement
+      title="Research Intern at Sonia Bishop Computational Psychiatry and Affective Cognitive Neuroscience Lab"
+      subtitle="January 2020 – March 2020"
+      desc="Programmed and designed guideline-specific experiments utilizing handheld manipulatives; Contributed to codebase to implement additional experimental features after peer review; Further developed computational experimental design for studying decision-making in anxious and depressed persons"
+    />
+    <TimeLineElement
+      title="High Frequency Oscillations in Pre-ictal, Ictal, and Post-ictal Epileptic States"
+      subtitle="Cognitive Neuroscience Research Proposal Project – University of California, Berkeley"
+      desc="Examined and analyzed literature on electrical oscillations in pre-ictal, ictal, and post-ictal epileptic states; Designed and proposed a novel study to fill in knowledge gaps about epileptic states missing from current literature; Posited that the new findings would give insight into how wearables and neurotechnologies could be applied for better seizure detection and prevention"
+    />
+    <TimeLineElement
+      title="The Effect of High Frequency Oscillations (HFOs) on Declarative and Procedural Memory"
+      subtitle="Brain Imaging Analysis Methods Research Proposal Project – University of California, Berkeley"
+      desc="Conducted in-depth literature review of over twenty-five research papers, covering topics from memory to epileptic oscillations - Developed a detailed HFO research proposal to further understand epilepsy’s effect on declarative and procedural memory; Presented proposal and led discussion for a seminar consisting of post-doctorates, graduate students, and other undergraduates"
+    />
+  </div>
+
+  <div class="mb-5">
+    <div class="text-3xl w-full font-bold">Certifications</div>
+  </div>
+
+  <ul class="list-disc mx-6 mb-10 grid gap-2">
+    <li>
+      <a href="https://www.coursera.org/account/accomplishments/specialization/certificate/CNRPD8Z9UE9W" target="_blank"> Google Data Analytics Specialization</a>
+    </li>
+    <li>
+      <a href="http://www.coursera.org/account/accomplishments/specialization/certificate/ECGURR55WKNF" target="_blank"> Google IT Support Specialization</a>
+    </li>
+  </ul>
+
+  <div class="mb-5">
+    <div class="text-3xl w-full font-bold">Skills</div>
+  </div>
+
+  <ul class="list-disc md:columns-5 columns-2 mx-6">
+    <li>Python</li>
+    <li>NumPy</li>
+    <li>Pandas</li>
+    <li>Seaborn</li>
+    <li>R</li>
+    <li>SQL</li>
+    <li>Jupyter Notebooks</li>
+    <li>Git</li>
+    <li>Bash</li>
+    <li>PsychoPy</li>
+    <li>Qualtrics</li>
+    <li>Experiment design</li>
+    <li>vSphere</li>
+    <li>TrueNAS</li>
+    <li>ZFS</li>
+    <li>Routing</li>
+    <li>VLANs</li>
+    <li>IPv4</li>
+    <li>Office Suite</li>
+    <li>Adobe Photoshop</li>
+  </ul>
+</BaseLayout>
